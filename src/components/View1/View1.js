@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import BarChart from "./BarChart";
+import OldBarChart from "./OldBarChart";
+
 function View1() {
   const [count, setCount] = useState(0);
 
@@ -8,7 +10,8 @@ function View1() {
     <div className="View1">
       <h1>Hello, World</h1>
 
-      <BarChart />
+      {/* <BarChart /> */}
+      {/* <OldBarChart /> */}
     </div>
   );
 }
